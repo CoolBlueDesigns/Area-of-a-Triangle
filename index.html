@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of a Triangle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Corinthia:wght@700&family=Delius+Swash+Caps&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+ <div class="header">
+     <h1 class="headerText">Finding the Area of a Triangle</h1>
+ </div>
+ <div class="para">
+    <p>Frustrated with math? Throwing your hands up at that geometry problem? Ready to give up?</p>
+      <p class="p2">Don't worry, I've got you covered!</p>
+</div>
+<div class="javaDiv">
+  <h1 class="javaHeader">Getting the Area of a Triangle Using 3 Sides:</h1>
+  <form>
+    Side 'a': <br> <input type="number" id="side_a" class="input"> <br>
+    <br>
+    Side 'b': <br> <input type="number" id="side_b" class="input"> <br>
+    <br>
+    Side 'c': <br> <input type="number" id="side_c" class="input"> <br>
+  </form>
+  <input type="button" onclick="findArea()" value="Find Area" id="button">
+  <br>
+  <br>
+  <div class="answerDiv">
+    <p class="answerWord">Answer:</p>
+    <p id="answer"></p>
+  </div> 
+</body>
+</html>

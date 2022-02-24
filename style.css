@@ -1,0 +1,66 @@
+.header{
+    display: block;
+    background-image: url("https://drive.google.com/uc?export=view&id=1rmMIEeaWTtAnRODIhj7mZDnnU4_LYOrS");
+    height: 30vh;
+    background-size: 550px;
+    text-align: center;
+    color: aquamarine;
+    font-size: 22px;
+    margin-bottom: 0%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.headerText{
+    margin: auto;
+    padding-top: 10vh;
+}
+
+@media only screen and (min-width: 720px){
+    .header{
+      background-size: 1000px;
+      font-size: 36px;
+    }
+  }
+
+.para{
+    background-color: aquamarine;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.p2{
+    text-align: center;
+}
+
+.javaDiv{
+    font-family: 'Roboto Slab', serif;
+    margin-left: 5vw;
+}
+
+.javaHeader{
+    text-align: center;
+    color: rgb(90, 182, 151);
+    font-family: 'Roboto Slab', serif;
+}
+
+.input{
+    outline: 1px solid rgb(90, 182, 151);
+}
+
+.answerDiv{
+    color: rgb(58, 126, 103);
+    font-family: 'Roboto Slab', serif;
+    font-size: 8vw;
+}
+
+.answerWord{
+    float: left;
+}
+
+#answer{
+    float: left;
+    padding-left: 15px;
+}
